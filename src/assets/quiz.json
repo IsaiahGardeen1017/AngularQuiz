@@ -1,0 +1,93 @@
+{
+	"questions": [{
+			"question": "What Command is used to create a new Angular component?",
+			"answers": [
+				"ng generate component comp-name",
+				"sudo rm -r *",
+				"ng create component comp-name",
+				"create angular componeny --new"
+			]
+		},
+		{
+			"question": "What Command is used to run Angular project?",
+			"answers": [
+				"ng serve",
+				"ng run",
+				"node index.html",
+				"serve -o"
+			]
+		},
+		{
+			"question": "Typescript is compiled into what other laungage?",
+			"answers": [
+				"Javascript",
+				"English",
+				"Java",
+				"Angular JS"
+			]
+		},
+		{
+			"question": "Which of the following statements declares a variable in typescript?",
+			"answers": [
+				"let myVar = 123;",
+				"int myVar = 123;",
+				"myVar:number = 123;",
+				"let myVar == 123;"
+			]
+		},
+		{
+			"question": "Typescript is a superset of which other laungage?",
+			"answers": [
+				"Javascript",
+				"English",
+				"Java",
+				"Angular JS"
+			]
+		},
+		{
+			"question": "Which is NOT a primitive type in typescript?",
+			"answers": [
+				"int",
+				"number",
+				"string",
+				"boolean"
+			]
+		},
+		{
+			"question": "Which is not a valid data modifier in Typescript",
+			"answers": [
+				"Promoted",
+				"Private",
+				"Protected",
+				"Public"
+			]
+		},
+		{
+			"question": "What command is used to compile typescript into javascript?",
+			"answers": [
+				"tcs",
+				"jc",
+				"node",
+				"ng"
+			]
+		},
+		{
+			"question": "Which configuration file is required to compile the whole TypeScript project?",
+			"answers": [
+				"tsconfig.json",
+				"tsconfig.js",
+				"web.config",
+				"app.json"
+			]
+		},
+		{
+			"question": "Which of the following statements is FALSE?",
+			"answers": [
+				"Bootstrap is a library used alongside Java for server-side computations",
+				"Typescript is compiled into javascript",
+				"Angular is a client side framework",
+				"The sky is blue"
+			]
+		}
+	]
+}

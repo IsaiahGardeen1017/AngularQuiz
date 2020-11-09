@@ -1,0 +1,26 @@
+.answer {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.5em 16px;
+    padding-left: 32px;
+    border-radius: 16px;
+}
+.question{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.btn.btn-success:disabled{
+    background-color:#478556;
+    color: lightgray;
+}
+
+.wholediv{
+    margin-top: 40px;
+}
+
+.output{
+    width: 100%;
+    margin-left: auto;
+}

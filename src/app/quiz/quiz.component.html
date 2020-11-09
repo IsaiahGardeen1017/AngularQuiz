@@ -1,1 +1,47 @@
-<p>quiz works!</p>
+<div class="wholediv">
+    <form class=".form-inline" [formGroup]="form" (ngSubmit)="submit()">
+        <div>
+            <div class="form-group">
+                <label class="question display-4" for="answer">{{questionText}}</label>
+                <div class="form-check">
+                    <label class=" answer">
+                        <input class="form-check-input" id="a0" type="radio" value={{answers[0]}} name="answer" formControlName="answer">
+                        <label class="form-check-label" for="a0">{{answers[0]}}</label>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class=" answer">
+                        <input class="form-check-input" id="a1" type="radio" value={{answers[1]}} name="answer" formControlName="answer">
+                        <label class="form-check-label" for="a1">{{answers[1]}}</label>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class=" answer">
+                        <input class="form-check-input" id="a2" type="radio" value={{answers[2]}} name="answer" formControlName="answer">
+                        <label class="form-check-label" for="a2">{{answers[2]}}</label>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class=" answer">
+                        <input class="form-check-input" id="a3" type="radio" value={{answers[3]}} name="answer" formControlName="answer">
+                        <label class="form-check-label" for="a3">{{answers[3]}}</label>
+                    </label>
+                </div>
+
+                <div *ngIf="f.answer.touched && f.answer.invalid" class="alert alert-danger">
+                    <div *ngIf="f.answer.errors.required">Please select an Answer.</div>
+                </div>
+            </div>
+            <div>
+                <button class="btn .my-button btn-success mr-1" type="submit" [disabled]="!form.valid || isFormDisabled">Submit</button>
+                <button class="btn .my-button btn-success" type="button" [disabled]="!isFormDisabled" (click)="next()">Next</button>
+                
+                <span class="output float-right">
+                    {{outputText}}
+                </span>
+            </div>
+        </div>
+    </form>
+
+
+</div>
